@@ -1,0 +1,107 @@
+.header {
+  height: 40%;
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+
+  h2 {
+    margin-top: 70px;
+    //margin-right: 200px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 4rem;
+    line-height: 1.2;
+    letter-spacing: -0.0083em;
+  }
+
+  h6 {
+    color: rgb(209, 116, 255);
+    // margin-right: 250px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.57;
+    letter-spacing: 0.00714em;
+  }
+}
+
+.banner {
+  background-image: url("../../assets/banner.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sub-header {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  border: 0;
+  background: transparent;
+  color: white;
+  padding: 10px;
+  margin: 40px;
+  width: 100px;
+  height: 200px;
+
+  img {
+    width: 70px;
+    margin: 0 auto;
+  }
+
+  h5 {
+    font-weight: 500;
+  }
+
+  p {
+    font-weight: 700;
+  }
+}
+
+table {
+  width: 100%;
+  background-color: rgba(119, 0, 255, 0.2);
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td,
+th {
+  width: 25%;
+}
+
+mat-paginator {
+  background-color: rgba(119, 0, 255, 0.2);
+}
+
+.mat-cell {
+  color: aliceblue;
+}
+
+.mat-mdc-form-field {
+  font-size: 20px;
+}
+
+.positive {
+  color: rgb(30, 255, 0);
+}
+
+.negative {
+  color: red;
+}
+
+mat-label {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgba(127, 0, 245, 0.727);
+}

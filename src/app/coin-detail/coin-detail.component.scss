@@ -1,0 +1,73 @@
+.background-img {
+  background-image: url("../../assets/5166950.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.img {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 70px;
+}
+
+.text-center {
+  color: plum;
+  margin-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.description {
+  color: ghostwhite;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  font-size: 23px;
+}
+
+.more-details {
+  color: blanchedalmond;
+  text-align: left;
+  margin-top: 20px;
+
+  .title {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .value {
+    font-style: oblique;
+    font-size: 20px;
+  }
+}
+
+canvas {
+  max-width: 1800px;
+  max-height: 900px;
+  margin-top: 100px;
+  margin-left: 90px;
+  background-color: rgba(170, 0, 255, 0.323);
+  text-align: center;
+}
+
+.btn-custom {
+  color: #fff;
+  background: transparent;
+  font-weight: 400;
+  font-size: 18px;
+  border: 1px solid #fff;
+  width: 15%;
+  margin-top: 15px;
+  margin-left: 90px;
+}
+
+.btn-custom:focus {
+  background: #aa00ff83;
+  font-weight: 700;
+  font-size: 18px;
+  border: 1px solid #aa00ff83;
+}
